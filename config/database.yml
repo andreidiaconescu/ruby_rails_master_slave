@@ -1,0 +1,138 @@
+# Mysql master slave config
+default: &default
+  adapter: mysql2_makara
+  encoding: utf8
+  pool: 5
+  username: root
+  password: "root"
+  host: localhost
+#  socket: /tmp/mysql.sock
+  socket: /var/run/mysqld/mysqld.sock
+  port: 3306
+  variables:
+    sql_mode: 'STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'
+  # add a makara subconfig
+  makara:
+
+    # the following are default values
+    blacklist_duration: 1
+    master_ttl: 5
+    master_strategy: round_robin
+    sticky: true
+
+    # list your connections with the override values (they're merged into the top-level config)
+    # be sure to provide the role if master, role is assumed to be a slave if not provided
+    connections:
+      - role: master
+        name: master
+        blacklist_duration: 0
+        host: localhost
+        port: 3306
+        database: test_ruby
+        username: root
+        password: root
+      - role: slave
+        name: salve1
+        host: localhost
+        port: 3306
+        database: test_ruby
+        username: root
+        password: root
+        weight: 8
+      - role: slave
+        name: slave2
+        host: localhost
+        port: 3306
+        database: test_ruby
+        username: root
+        password: root
+        weight: 2
+
+
+development:
+  <<: *default
+  database: test_ruby
+
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+test:
+  <<: *default
+  database: test_ruby
+
+production:
+  <<: *default
+  database: test_ruby
+
+
+
+
+
+
+
+
+
+
+
+## Mysql config
+#default: &default
+#  adapter: mysql2
+#  encoding: utf8
+#  pool: 5
+#  username: root
+#  password: "root"
+#  host: localhost
+##  socket: /tmp/mysql.sock
+#  socket: /var/run/mysqld/mysqld.sock
+#  port: 3306
+#  variables:
+#    sql_mode: 'STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'
+#
+#development:
+#  <<: *default
+#  database: test_ruby
+#
+## Warning: The database defined as "test" will be erased and
+## re-generated from your development database when you run "rake".
+## Do not set this db to the same as development or production.
+#test:
+#  <<: *default
+#  database: test_ruby
+#
+#production:
+#  <<: *default
+#  database: test_ruby
+
+
+
+
+
+
+
+
+
+## SQLite version 3.x
+##   gem install sqlite3
+##
+##   Ensure the SQLite 3 gem is defined in your Gemfile
+##   gem 'sqlite3'
+##
+#default: &default
+#  adapter: sqlite3
+#  pool: 5
+#  timeout: 5000
+#
+#development:
+#  <<: *default
+#  database: db/development.sqlite3
+#
+## Warning: The database defined as "test" will be erased and
+## re-generated from your development database when you run "rake".
+## Do not set this db to the same as development or production.
+#test:
+#  <<: *default
+#  database: db/test.sqlite3
+#
+#production:
+#  <<: *default
+#  database: db/production.sqlite3
