@@ -1,0 +1,1 @@
+Makara::Cache.store = :noop
