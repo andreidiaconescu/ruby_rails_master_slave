@@ -1,0 +1,159 @@
+/bin/bash: script/rails: No such file or directory
+Running via Spring preloader in process 20846
+Running via Spring preloader in process 21039
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- bundler (LoadError)
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /var/www/try1.ruby.me/blog/bin/spring:8:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+Running via Spring preloader in process 22957
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 23271
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+
+
+
+Running via Spring preloader in process 23524
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 24720
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 24966
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+
+
+Running via Spring preloader in process 25162
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+/bin/bash: script/rails: No such file or directory
+Running via Spring preloader in process 26073
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 26460
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 26822
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 27428
+Running via Spring preloader in process 27787
+Running via Spring preloader in process 28081
+
+
+Running via Spring preloader in process 28514
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 28861
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 29220
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 30268
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 30553
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+
+
+
+
+
+
+
+Running via Spring preloader in process 30819
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 31242
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 31618
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 32074
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 32574
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 32686
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 32744
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 586
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 1112
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 1551
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 2213
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 2388
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 2625
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+
+
+
+
+
+Running via Spring preloader in process 2653
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 2728
+Running via Spring preloader in process 3738
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 4330
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 5036
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 5359
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 5762
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 6056
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 6225
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 6847
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 7290
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 7704
+Running via Spring preloader in process 7930
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 8037
+Running via Spring preloader in process 8164
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 8470
+Running via Spring preloader in process 8672
+Running via Spring preloader in process 9075
+Running via Spring preloader in process 9759
